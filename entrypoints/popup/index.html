@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google Extension</title>
+    <link rel="stylesheet" href="~/assets/tailwind.css" />
+  </head>
+  <body class="m-0 w-80 bg-zinc-950 text-zinc-50 antialiased">
+    <main class="p-4">
+      <p class="text-xs font-medium tracking-wide text-zinc-400 uppercase">
+        Current tab
+      </p>
+      <h1 id="title" class="mt-1 text-base font-semibold">Loading…</h1>
+      <p id="url" class="mt-1 truncate text-sm text-zinc-400"></p>
+    </main>
+    <script type="module" src="./main.ts"></script>
+  </body>
+</html>
